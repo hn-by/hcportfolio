@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(120, 30, 140);
+    color: white;
+}
+
+.nav-h1 {
+    padding: 0 100px;;
+}
+
+.nav-ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0 100px;
+}
+
+.nav-ul > li {
+    padding: 10px;
+}
