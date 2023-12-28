@@ -1,0 +1,58 @@
+body {
+    background-image: url(./images/background1.jpg);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(120, 30, 140);
+    color: white;
+}
+
+.nav-h1 {
+    padding: 0 100px;
+}
+
+.nav-ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0 100px;
+}
+
+.nav-ul > li {
+    padding: 10px;
+}
+
+.helloTab {
+    border: 3px solid black;
+    width: 60%;
+    height: 300px;
+    margin: 40px;
+    background: rgba(120, 30, 140, 1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.helloTab > * {
+    padding-left: 30px;
+}
+
+.main {
+    display: flex;
+}
+
+.nav-btn {
+    width: 90%;
+    height: 100px;
+    margin: 60px;
+    background-color: rgb(120, 30, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 3px solid black;
+    border-radius: 20%;
+}
